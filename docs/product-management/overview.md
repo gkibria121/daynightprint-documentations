@@ -1,11 +1,11 @@
 ---
-id: product-management
-title: Product Management
+id: overview
+title: Overview
 description: Guide to managing products and vendor products in the system.
 sidebar_position: 1
 ---
 
-# Product Management
+# Product Management Overview
 
 To show an item on the **customer-facing form**, we need to add **Vendor Products**. Here's how the process works:
 
