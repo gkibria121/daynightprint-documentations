@@ -2,7 +2,7 @@
 id: intro
 title: Introduction
 description: Overview of DayNightPrint applications and documentation scope.
-slug: /
+slug: /intro
 sidebar_position: 0
 ---
 
