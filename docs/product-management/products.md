@@ -9,7 +9,7 @@ sidebar_position: 2
 
 To create a product in the system, follow these steps:
 
-## 1. Go to the Products Menu
+## 1. Go to the Products Menu Item
 
 Navigate to the **Products** section from the sidebar or main menu.
 
@@ -30,4 +30,4 @@ Once all required fields are filled out, click **Save** to create the product.
 
 ---
 
-Your product is now created and can be linked with vendors through the Vendor Products menu.
+Your product is now created and can be linked with vendors through the Vendor Products menu item.

@@ -9,9 +9,9 @@ sidebar_position: 0
 
 To show a product on the customer-facing form, you must create a **Vendor Product**. Here's how:
 
-## Step 1: Go to the Vendor Products Menu
+## Step 1: Go to the Vendor Products
 
-Navigate to the **Vendor Products** menu option, then click on **Add New Vendor Product**. This will open the vendor product creation form.
+Navigate to the **Vendor Products** menu item, then click on **Add New Vendor Product**. This will open the vendor product creation form.
 
 ## Step 2: Fill Out Basic Information
 

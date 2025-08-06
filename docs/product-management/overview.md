@@ -41,13 +41,13 @@ To show an item on the **customer-facing form**, we need to add **Vendor Product
 
 ### Where to Manage
 
-- **Products Menu**  
+- **Products Menu Item**  
   Manage the base products available in your system.
 
-- **Vendors Menu**  
+- **Vendors Menu Item**  
   Manage all registered vendors.
 
-- **Vendor Products Menu**  
+- **Vendor Products Menu Item**  
   To show an item on the customer-facing form, we need to add vendor products here. This is where products are linked to specific vendors and enhanced with relevant descriptions and configuration options.
 
 ---
