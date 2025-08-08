@@ -2,7 +2,7 @@
 id: create-product
 title: How to Create a Product
 description: Step-by-step guide to creating a product in the system.
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # How to Create a Product

@@ -2,7 +2,7 @@
 id: create-vendor-product
 title: How to Create a Vendor Product
 description: Step-by-step guide to adding a vendor product.
-sidebar_position: 0
+sidebar_position: 3
 ---
 
 # How to Create a Vendor Product
@@ -212,3 +212,43 @@ You can define multiple quantity-price pairs to reflect different cost relations
 | 110      | 1250  |
 
 > 💡 The system uses these entries to determine total pricing based on selected quantity.
+
+## Alternative: Import Vendor Products via CSV
+
+You can also add multiple vendor products quickly by importing CSV files. This is useful for bulk creation or updates.
+
+### How to Import Vendor Products
+
+1. Navigate to the **Vendor Products** menu.
+2. Click on **Add New Vendor Product**.
+
+![Import Button](/img/vendor-products/import.png)
+
+3. In the vendor product creation form, open the **Import CSV** modal.
+
+![Import Modal](/img/vendor-products/import-modal.png)
+
+4. Prepare CSV files according to the following formats for each section you want to import:
+
+| Section              | CSV Format                                                                                                                                         |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pricing Rules**    | `attribute,value,price,product_name,vendor_email`                                                                                                  |
+| **Delivery Rules**   | `label,price,deliveryTimeStartDate,deliveryTimeStartTime,deliveryTimeEndDate,deliveryTimeEndTime,cutoffTime,product_name,vendor_email,maxQuantity` |
+| **Quantity Pricing** | `quantity,price,product_name,vendor_email`                                                                                                         |
+| **Ratings**          | `rating,product_name,vendor_email`                                                                                                                 |
+
+5. Add one or more CSV files corresponding to these formats into the import modal.
+6. Click the **Import** button at the bottom of the modal.
+7. Review the import summary, then click **Submit** to finalize adding the vendor products.
+
+> ⚠️ Make sure the `product_name` and `vendor_email` fields in your CSVs exactly match existing products and vendors in the system.
+
+---
+
+This CSV import option complements manual creation and allows bulk setup of vendor products including their pricing rules, delivery slots, quantity pricing tiers, and ratings. For details on configuring each section manually, refer to the sections above:
+
+- [Pricing Rules](#pricing-rules)
+- [Pricing Rule Meta](#pricing-rule-meta)
+- [Delivery Options](#delivery-options)
+- [Quantity Pricing](#quantity-pricing)
+- [Basic Information - Rating](#step-2-fill-out-basic-information)

@@ -2,7 +2,7 @@
 id: create-vendor
 title: How to Create a Vendor
 description: Guide to adding a new vendor in the system.
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # How to Create a Vendor
@@ -36,4 +36,27 @@ After filling out the form, click **Save** to register the new vendor.
 
 ---
 
+## Alternative: Import Vendors via CSV
+
+You can also add vendors by importing a CSV file.
+
+**CSV format should be:**
+
+```
+
+name,email,streetAddress,place,city,postCode
+
+```
+
+Each row in the CSV represents a vendor. Make sure:
+
+- All fields are provided for each vendor.
+- The email address is unique across all vendors.
+
+---
+
 The vendor is now added and can be linked to products using the Vendor Products menu.
+
+```
+
+```

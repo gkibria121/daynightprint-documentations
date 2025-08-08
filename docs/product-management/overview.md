@@ -2,7 +2,7 @@
 id: overview
 title: Overview
 description: Guide to managing products and vendor products in the system.
-sidebar_position: 1
+sidebar_position: 0
 ---
 
 # Product Management Overview
